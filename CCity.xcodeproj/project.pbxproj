@@ -13,6 +13,18 @@
 		67F3741C22E439200097B667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F3741B22E439200097B667 /* Assets.xcassets */; };
 		67F3741F22E439200097B667 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67F3741E22E439200097B667 /* Preview Assets.xcassets */; };
 		67F3742222E439200097B667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67F3742022E439200097B667 /* LaunchScreen.storyboard */; };
+		67F3743122E43CC30097B667 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3743022E43CC30097B667 /* Customer.swift */; };
+		67F3743322E43E090097B667 /* PersonName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3743222E43E090097B667 /* PersonName.swift */; };
+		67F3743522E43FFB0097B667 /* CitizenId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3743422E43FFB0097B667 /* CitizenId.swift */; };
+		67F3743822E440430097B667 /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3743722E440430097B667 /* Id.swift */; };
+		67F3743A22E447AB0097B667 /* Citizen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3743922E447AB0097B667 /* Citizen.swift */; };
+		67F3743E22E44EE40097B667 /* CustomerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3743D22E44EE40097B667 /* CustomerType.swift */; };
+		67F3744022E4574F0097B667 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3743F22E4574F0097B667 /* Film.swift */; };
+		67F3744222E4588F0097B667 /* Studio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3744122E4588F0097B667 /* Studio.swift */; };
+		67F3744422E459500097B667 /* Theater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3744322E459500097B667 /* Theater.swift */; };
+		67F3744622E46BF30097B667 /* Program.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3744522E46BF30097B667 /* Program.swift */; };
+		67F3744822E480C20097B667 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3744722E480C20097B667 /* Price.swift */; };
+		67F3744D22E48B880097B667 /* PurchaseDomainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F3744C22E48B880097B667 /* PurchaseDomainService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		67F3741E22E439200097B667 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67F3742122E439200097B667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67F3742322E439200097B667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67F3743022E43CC30097B667 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		67F3743222E43E090097B667 /* PersonName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonName.swift; sourceTree = "<group>"; };
+		67F3743422E43FFB0097B667 /* CitizenId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenId.swift; sourceTree = "<group>"; };
+		67F3743722E440430097B667 /* Id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Id.swift; sourceTree = "<group>"; };
+		67F3743922E447AB0097B667 /* Citizen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citizen.swift; sourceTree = "<group>"; };
+		67F3743D22E44EE40097B667 /* CustomerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerType.swift; sourceTree = "<group>"; };
+		67F3743F22E4574F0097B667 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		67F3744122E4588F0097B667 /* Studio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Studio.swift; sourceTree = "<group>"; };
+		67F3744322E459500097B667 /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
+		67F3744522E46BF30097B667 /* Program.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Program.swift; sourceTree = "<group>"; };
+		67F3744722E480C20097B667 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		67F3744C22E48B880097B667 /* PurchaseDomainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseDomainService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +108,9 @@
 		67F3742A22E43A3D0097B667 /* domain */ = {
 			isa = PBXGroup;
 			children = (
+				67F3742F22E43C110097B667 /* entity */,
+				67F3744B22E48AFE0097B667 /* service */,
+				67F3742E22E43C020097B667 /* valueObject */,
 			);
 			path = domain;
 			sourceTree = "<group>";
@@ -113,6 +140,47 @@
 				67F3741722E4391D0097B667 /* SceneDelegate.swift */,
 			);
 			path = main;
+			sourceTree = "<group>";
+		};
+		67F3742E22E43C020097B667 /* valueObject */ = {
+			isa = PBXGroup;
+			children = (
+				67F3743622E440280097B667 /* id */,
+				67F3743D22E44EE40097B667 /* CustomerType.swift */,
+				67F3743222E43E090097B667 /* PersonName.swift */,
+				67F3744722E480C20097B667 /* Price.swift */,
+			);
+			path = valueObject;
+			sourceTree = "<group>";
+		};
+		67F3742F22E43C110097B667 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				67F3743922E447AB0097B667 /* Citizen.swift */,
+				67F3743022E43CC30097B667 /* Customer.swift */,
+				67F3743F22E4574F0097B667 /* Film.swift */,
+				67F3744522E46BF30097B667 /* Program.swift */,
+				67F3744122E4588F0097B667 /* Studio.swift */,
+				67F3744322E459500097B667 /* Theater.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		67F3743622E440280097B667 /* id */ = {
+			isa = PBXGroup;
+			children = (
+				67F3743422E43FFB0097B667 /* CitizenId.swift */,
+				67F3743722E440430097B667 /* Id.swift */,
+			);
+			path = id;
+			sourceTree = "<group>";
+		};
+		67F3744B22E48AFE0097B667 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				67F3744C22E48B880097B667 /* PurchaseDomainService.swift */,
+			);
+			path = service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,9 +254,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67F3743122E43CC30097B667 /* Customer.swift in Sources */,
+				67F3744422E459500097B667 /* Theater.swift in Sources */,
+				67F3743322E43E090097B667 /* PersonName.swift in Sources */,
+				67F3744622E46BF30097B667 /* Program.swift in Sources */,
+				67F3744222E4588F0097B667 /* Studio.swift in Sources */,
 				67F3741622E4391D0097B667 /* AppDelegate.swift in Sources */,
+				67F3743522E43FFB0097B667 /* CitizenId.swift in Sources */,
+				67F3744822E480C20097B667 /* Price.swift in Sources */,
 				67F3741822E4391D0097B667 /* SceneDelegate.swift in Sources */,
+				67F3744D22E48B880097B667 /* PurchaseDomainService.swift in Sources */,
+				67F3744022E4574F0097B667 /* Film.swift in Sources */,
+				67F3743822E440430097B667 /* Id.swift in Sources */,
+				67F3743A22E447AB0097B667 /* Citizen.swift in Sources */,
 				67F3741A22E4391D0097B667 /* ContentView.swift in Sources */,
+				67F3743E22E44EE40097B667 /* CustomerType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
