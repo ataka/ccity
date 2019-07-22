@@ -62,8 +62,8 @@ struct PurchaseDomainService {
         let showType = ShowType.getShowType(program: program, dayType: dayType)
         switch (customer.type, showType) {
         case (.citizen,      .movieDay):   return Price(1_100)
-        case (.citizen,      .lateShow):   return Price(1_300)
-        case (.citizen,      .normal):     return Price(1_000)
+        case (.citizen,      .lateShow):   return Price(1_000)
+        case (.citizen,      .normal):     return Price(program.isWeedDayProgram ? 1_000 : 1_300) // 土日祝の通常時間のみ 1,300 円t
         case (.citizenSenior, _):          return Price(1_000)
         case (.adult,        .movieDay):   return Price(1_100)
         case (.adult,        .lateShow):   return Price(1_300)
